@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 // --- Itinerary Data ---
 // This array holds all the events of the trip, now including weather forecasts.
