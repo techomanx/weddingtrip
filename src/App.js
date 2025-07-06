@@ -224,7 +224,7 @@ const ToastHelperModal = ({ closeModal }) => {
         setError(null);
         setToast('');
 
-        const prompt = `Write a short, heartfelt, and slightly humorous wedding toast (around 100-150 words). The couple's names are Teodora and Simeon. Use the following keywords as inspiration for the toast: "${keywords}".`;
+        const prompt = `Write a short, heartfelt, and slightly humorous wedding toast (around 100-150 words). The couple's names are venislava and milen. Use the following keywords as inspiration for the toast: "${keywords}".`;
         
         const response = await callGeminiAPI(prompt);
         setIsLoading(false);
@@ -310,8 +310,8 @@ function App() {
 
       <div style={styles.container}>
         <div style={styles.header}>
-          <h1 style={styles.headerTitle}>Wedding Trip Itinerary</h1>
-          <p style={styles.headerSubtitle}>Teodora & Simeon | August 20-22, 2025</p>
+          <h1 style={styles.headerTitle}>Tiwari Family Trip Itinerary for Venislava & Milan's Wedding</h1>
+          <p style={styles.headerSubtitle}>Rachana & Manish | August 20-22, 2025</p>
           <button onClick={() => setPackingModalOpen(true)} style={{...styles.geminiButton, marginTop: '20px'}}>
             ✨ Packing Assistant
           </button>
